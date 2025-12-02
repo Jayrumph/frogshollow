@@ -161,6 +161,17 @@ figcaption {
   padding: 0.7rem 0.9rem 0.9rem;
   font-size: 0.9rem;
 }
+/* Double-image collage figures */
+.double-figure .double-image-row {
+  display: flex;
+  gap: 4px;
+}
+
+.double-figure .double-image-row img {
+  flex: 1 1 0;
+  height: 200px;      /* matches single-image height */
+  object-fit: cover;  /* keeps the “soft crop” look */
+}
 
 /* Footer */
 .site-footer {
